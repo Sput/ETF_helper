@@ -1,6 +1,6 @@
 //BTMZPVP11OHBO0FJ
 const axios = require('axios');
-URL = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=BTMZPVP11OHBO0FJ'
+URL = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&'
 
 axios.get(URL)
   .then(response => {
