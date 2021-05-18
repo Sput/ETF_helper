@@ -1,23 +1,12 @@
 const Alpaca = require('@alpacahq/alpaca-trade-api')
 
- const alpaca = new Alpaca({
-     keyId: 'PKKVIOYQOAM41B4FAFV6',
-     secretKey: 'ErpNLujVE72VBLRjeHu3RcLXFi3tQjogQSFTOLS6',
-     paper: true,
-     usePolygon: false
-   })
+
 
 
 let AAPL_price = alpaca.getLastQuote('AAPL')
 
 console.log(AAPL_price)
 
-//   const alpaca = new Alpaca({
-//     keyId: 'AKAPFVGQCYWQN4CQ66AZ',
-//     secretKey: 'i1mUv5ovJg1Vdo7fu4Br5cqiJ4l4F6DZf1LSz5I8',
-//     paper: false,
-//     usePolygon: false
-//   })
 
 
 
