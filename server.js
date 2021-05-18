@@ -45,6 +45,10 @@ app.get('/profile', (req, res) => {
   res.render('profile');
 });
 
+app.get('/etf', (req, res) => {
+  res.render('tickers');
+});
+
 app.use('/auth', require('./controllers/auth'));
 
 
